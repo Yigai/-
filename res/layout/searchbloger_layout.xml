@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/search_body"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" 
+        >
+
+        <LinearLayout
+            android:id="@+id/title_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/search_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/edittext_search"
+                android:drawableLeft="@drawable/edittext_search_image"
+                android:hint="请输入博主名字..."
+                android:paddingLeft="12dp" />
+
+            <Button
+                android:id="@+id/search_go"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ckeck_button"
+                android:text="搜索"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_vertical"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/search_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/ckeck_button"
+                android:layout_marginRight="5dp"
+                android:text="清除"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_vertical"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/resultList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/title_category" 
+            android:divider="@drawable/list_item_divide_operate"
+            android:cacheColorHint="#00000000"
+         
+            />
+
+        <ProgressBar
+            android:id="@+id/blog_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_category"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/searchNull"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/title_category"
+            android:gravity="center"
+            android:text="无搜索内容"
+            android:textSize="20sp"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</RelativeLayout>

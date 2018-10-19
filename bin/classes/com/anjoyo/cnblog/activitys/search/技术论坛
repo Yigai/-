@@ -1,0 +1,24 @@
+技术论坛
+	CSDN	博客园  iteye		Android
+
+	用户定位：
+	开发人员	学生	技术
+	收益：广告	VIP		推荐 	定制
+	前景：
+
+http://wcf.open.cnblogs.com/news/help
+http://wcf.open.cnblogs.com/blog/help
+
+后台服务器 
+	博客园自己提供的
+	返回的数据是xml格式的  客户端解析xml 显示到手机中
+	偶尔会宕机
+
+
+
+
+
+客户端：
+	Android客户端：java
+	文章正文：   html标签
+		控件 识别html标签   webview

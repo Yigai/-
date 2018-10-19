@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <ScrollView
+            android:id="@+id/left_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/commlist_head_bg" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#80776f63"
+                        android:gravity="center"
+                        android:text="新闻"
+                        android:textColor="@android:color/background_light" />
+
+                    <TextView
+                        android:id="@+id/hot_news"
+                        style="@style/tabmenu"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/heart_32"
+                        android:text="热门新闻" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@drawable/list_item_divide_operate" />
+
+                    <TextView
+                        android:id="@+id/lately_news"
+                        style="@style/tabmenu"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/rss_32"
+                        android:text="最新新闻" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@drawable/list_item_divide_operate" />
+
+                    <TextView
+                        android:id="@+id/recommend_news"
+                        style="@style/tabmenu"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/globe_32"
+                        android:text="推荐新闻" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@drawable/list_item_divide_operate" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#80776f63"
+                        android:gravity="center"
+                        android:text="博客"
+                        android:textColor="@android:color/background_light" />
+
+                    <TextView
+                        android:id="@+id/recommend_blogs"
+                        style="@style/tabmenu"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/star_32"
+                        android:text="所有博客" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@drawable/list_item_divide_operate" />
+
+                    <TextView
+                        android:id="@+id/read48_rank"
+                        style="@style/tabmenu"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/chart_bar_down_32"
+                        android:text="48小时阅读排行" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@drawable/list_item_divide_operate" />
+
+                    <TextView
+                        android:id="@+id/recommend_rank"
+                        style="@style/tabmenu"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/chart_area_32"
+                        android:text="10天内推荐排行" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#80776f63"
+                        android:gravity="center"
+                        android:text="收藏"
+                        android:textColor="@android:color/background_light" />
+
+                    <TextView
+                        android:id="@+id/booktag"
+                        style="@style/tabmenu"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/book_bookmark_32"
+                        android:text="书签" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@drawable/list_item_divide_operate" />
+
+                    <TextView
+                        android:id="@+id/history"
+                        style="@style/tabmenu"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/document_32"
+                        android:text="离线浏览" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#80776f63"
+                        android:gravity="center"
+                        android:text="工具"
+                        android:textColor="@android:color/background_light" />
+
+                    <TextView
+                        android:id="@+id/search"
+                        style="@style/tabmenu"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/magnifier_32"
+                        android:text="搜索" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@drawable/list_item_divide_operate" />
+
+                    <TextView
+                        android:id="@+id/settings"
+                        style="@style/tabmenu"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/gear_32"
+                        android:text="设置" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@drawable/list_item_divide_operate" />
+
+                    <TextView
+                        android:id="@+id/exit"
+                        style="@style/tabmenu"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/exit_32"
+                        android:text="退出" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_dark"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/icon" />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:text="123"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/body"
+                android:layout_width="match_parent"
+                android:background="#FFFFFF"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

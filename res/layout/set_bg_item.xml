@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+     
+    <ImageView 
+        android:id="@+id/left_menu_bg"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        />
+    <TextView 
+        android:id="@+id/bg_name"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="壁纸1"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_gravity="bottom"/>
+    <ImageView
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/check_64"
+        android:layout_gravity="bottom|right"
+        android:visibility="invisible"/>
+    
+</FrameLayout>

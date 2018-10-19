@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ISee</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="zero">0</string>
+    <string name="views_comments_devider">|</string>
+    <string name="list_item_views">浏览:</string>
+    <string name="list_item_comments">评论:</string>
+
+</resources>
